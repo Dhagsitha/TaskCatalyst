@@ -1,0 +1,67 @@
+/* TeamBox.css */
+.team-box {
+    width: 25%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .team-name {
+    margin-bottom: 10px;
+  }
+  
+  .student-view .team-box {
+    background-color: #f8f9fa;
+  }
+  
+  .teacher-view .team-box {
+    background-color: #fff;
+  }
+  
+  .add-remark-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* TeamBox.css */
+
+/* Styles for the "Add Remark" textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Style the "Add Remark" button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the "View Remarks" button */
+  button.view-remarks-button {
+    margin-top: 10px;
+  }
+  /* TeamBox.css */
+
+/* Style for the timestamp */
+.timestamp {
+    color: #FF0000; /* Gray color */
+    font-size: 14px; /* Smaller font size */
+  }
+  
+  

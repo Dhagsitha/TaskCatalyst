@@ -1,0 +1,71 @@
+/* TeamRegistration.css */
+.teamReg {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.teamReg form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    width: 400px;
+    margin-left: 40%;
+    padding-left: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    box-shadow: 0 0 25px;
+}
+
+.teamReg h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.teamReg label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.teamReg input, .teamReg button {
+    display: block;
+    width: 280px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 3px solid #4acced;
+    border-radius: 10px;
+    outline: none;
+}
+
+.teamReg button {
+    width: auto;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.teamReg button:hover {
+    background-color: #000000;
+}
+
+.teamReg input[type="submit"] {
+    margin-top: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.teamReg input[type="submit"]:hover {
+    background-color: #000000;
+}

@@ -1,0 +1,23 @@
+/* Add this CSS to your styles/ViewSubmission.css */
+.project-container {
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* Center the boxes horizontally */
+}
+
+.project-box {
+    flex: 1 1 200px; 
+    flex-direction: column;/* Each box will flex but not smaller than 200px */
+    padding: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #abaaaa; /* Light background for better visibility */
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Enhanced hover effect */
+}

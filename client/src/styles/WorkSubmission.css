@@ -1,0 +1,82 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+}
+.up{
+  margin-left: 700px;
+  gap:20px;
+  width:500px;
+  padding-top: 100px;
+
+}
+.up .but{
+  background-color: coral;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 0 10px;
+  width: 200px;
+  margin-left: 150px;
+}
+.up h1{
+  font-size: 40px;
+  
+  padding-top: -100px;
+}
+.up .in{
+  border:2px solid black;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+  }
+}

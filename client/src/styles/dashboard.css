@@ -1,0 +1,72 @@
+div.dash-full{
+    height: 100vh;
+    width: 100%;
+}
+/* Sidebar.css */
+
+.sidebar {
+    width: 350px;
+    height: 100%;
+     
+    background-color: #fd8989;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.username {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.menu input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu .word
+{
+    text-decoration: none;
+    color: #000000;
+}
+.icon {
+    margin-right: 10px;
+    
+}
+
+li {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px; /* Apply padding to all list items */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li .word:hover {
+    color:rgb(255, 250, 250);
+}
+
